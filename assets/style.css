@@ -1,0 +1,200 @@
+/*----------- Basic Styles Start -----------*/
+* {
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #EEE2DC;
+}
+
+
+/*----------- Basic Styles End -----------*/
+
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #212A31;
+    padding-bottom: 70px;
+    padding-top: 150px;
+    word-spacing: 5px;
+}
+
+.sub-heading {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #212A31;
+    padding: 100px 0;
+    opacity: 80%;
+}
+
+/*----------- Tabs Section Start -----------*/
+#tabSection {
+    width: 100%;
+    margin: auto;
+}
+
+.tab-wrapper {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.subject-button {
+    background-color: #EDC7B7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 50px;
+    width: 20%;
+}
+
+.subject-button a :hover {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.subject-button a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #212A31;
+}
+
+.subject-button :hover {
+    font-size: 15px;
+    font-weight: 750;
+    color: #080a0c;
+}
+
+/*----------- Tabs Section End -----------*/
+
+/*----------- Footer Section Start -----------*/
+#footer-section {
+    background-color: #BAB2B5;
+    height: 40px;
+    display: flex;
+    margin-top: 250px;
+}
+
+.footer-wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+
+.footer-details {
+    font-size: 14px;
+    color: #212A31;
+    margin: 0;
+}
+
+
+/*----------- Footer Section Start -----------*/
+
+@media only screen and (max-width: 768px) {
+
+    .main {
+        width: 90%;
+    }
+
+    .tab-wrapper {
+        width: 90%;
+    }
+
+    .subject-button {
+        height: 40px;
+        width: 40%;
+    }
+
+    #qA {
+        width: 90%;
+    }
+
+    .subject-button-special {
+        background-color: #AC3B61;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        height: 40px;
+        width: 90px;
+    }
+
+    .subject-button a {
+        text-decoration: none;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 700;
+        color: #212A31;
+    }
+
+    .subject-button-special a {
+        text-decoration: none;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+
+    .subject-button :hover {
+        font-size: 14px;
+        font-weight: 750;
+        color: #080a0c;
+    }
+
+    .notes-headding {
+        font-size: 14px;
+    }
+
+    .notes-para {
+        font-size: 12px;
+    }
+
+    .table {
+        font-size: 12px;
+    }
+
+    .sub-heading {
+        font-size: 16px;
+    }
+
+    .sub-titles {
+        font-size: 13px;
+    }
+
+    .main-heading {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: #212A31;
+        padding: 40px 0;
+    }
+
+    .q-menu li {
+        font-size: 13px;
+    }
+
+    .q-menu li span {
+        font-size: 12px;
+    }
+}
