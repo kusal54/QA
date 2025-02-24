@@ -90,7 +90,7 @@ body {
     background-color: #BAB2B5;
     height: 40px;
     display: flex;
-    margin-top: 250px;
+    margin-top: 100px;
 }
 
 .footer-wrapper {
@@ -196,5 +196,13 @@ body {
 
     .q-menu li span {
         font-size: 12px;
+    }
+
+    #footer-section {
+        margin-top: 75px;
+    }
+
+    .footer-details {
+        font-size: 11px;
     }
 }

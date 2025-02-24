@@ -45,16 +45,24 @@ body {
     display: none;
 }
 
-#sl {
-    display: flex;
-    flex-direction: column;
+#buduGuna {
     display: none;
 }
 
-#wd {
-    display: flex;
-    flex-direction: column;
+#narasiha{
     display: none;
+}
+
+#paramitha{
+    display: none;
+}
+
+#paramitha ul{
+    padding-bottom: 50px;
+}
+
+#paramitha ol{
+    padding-bottom: 50px;
 }
 
 /*----------- Tabs Section Start -----------*/
@@ -144,6 +152,11 @@ body {
 .qa-section {
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+.qa-section .tb {
+    width: 100%;
 }
 
 .notes-headding {
@@ -183,6 +196,28 @@ body {
     padding-bottom: 12px;
 }
 
+.gatha-wrapper {
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+}
+
+.gatha-left {
+    font-size: 16px;
+    text-align: right;
+    display: block;
+    font-weight: 500;
+    width: 100%;
+}
+
+.gatha-right {
+    font-size: 16px;
+    text-align: left;
+    color: #bd122f;
+    font-weight: 500;
+    width: 100%;
+}
+
 /*----------- Tabs Section Start -----------*/
 
 /*----------- Footer Section Start -----------*/
@@ -190,7 +225,7 @@ body {
     background-color: #BAB2B5;
     height: 40px;
     display: flex;
-    margin-top: 250px;
+    margin-top: 100px;
 }
 
 .footer-wrapper {
@@ -296,5 +331,36 @@ body {
 
     .q-menu li span {
         font-size: 12px;
+    }
+
+    #footer-section {
+        margin-top: 75px;
+    }
+
+    .footer-details {
+        font-size: 11px;
+    }
+
+    .gatha-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding-top: 15px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .gatha-left {
+        font-size: 14px;
+        text-align: justify;
+        display: block;
+        font-weight: 500;
+    }
+
+    .gatha-right {
+        font-size: 14px;
+        text-align: justify;
+        color: #bd122f;
+        font-weight: 500;
     }
 }
